@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<svg width="60" height="60" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+
+ <g class="layer">
+  <title>Layer 1</title>
+  <g id="svg_8">
+   <text fill="#cccccc" font-family="Courier" font-size="23" font-style="normal" font-weight="bold" id="svg_3" letter-spacing="3" stroke="#000000" stroke-opacity="0" stroke-width="0" text-anchor="middle" textLength="0" transform="matrix(0.751905 0 0 1.00034 4.37113 5.33653)" x="-297.98" xml:space="preserve" y="-121.79">A/Z</text>
+   <path d="m-221.17,-144.18c2.28,0 4.46,0.4 6.52,1.06l-1.63,2.82l11.59,0l-2.9,-5.02l-2.9,-5.01l-1.52,2.64c-2.86,-1.04 -5.93,-1.63 -9.15,-1.63c-14.82,0 -26.83,12.01 -26.83,26.83c0,6.15 2.09,11.8 5.57,16.33l4.08,-3.13c-2.82,-3.66 -4.51,-8.23 -4.52,-13.2c0.02,-11.98 9.71,-21.68 21.7,-21.7zm21.26,5.37l-4.08,3.13c2.82,3.66 4.51,8.22 4.52,13.19c-0.02,11.98 -9.71,21.67 -21.7,21.7c-2.12,0 -4.15,-0.35 -6.09,-0.93l1.54,-2.66l-11.59,0l2.9,5.01l2.9,5.02l1.62,-2.8c2.74,0.95 5.67,1.49 8.73,1.49c14.82,0 26.83,-12.02 26.84,-26.84c0,-6.15 -2.1,-11.8 -5.58,-16.33z" fill="#cccccc" id="svg_6" stroke="#000000" stroke-opacity="0"/>
+  </g>
+  <ellipse cx="-70" cy="-19.3" fill="#cccccc" id="svg_11" opacity="0.5" rx="0" ry="0" stroke="#000000" stroke-opacity="0"/>
+  <path d="m-370.42,85.12c0.03,-4.2 -0.02,-8.4 0.28,-12.59c7.29,1.38 14.49,3.63 21.65,5.66c0.38,-2.06 0.2,-3.77 0.54,-5.67c4.6,4 9.16,8.07 13.54,12.32c-4.2,4.83 -9.01,9.02 -13.73,13.31c-0.15,-2 -0.31,-4 -0.46,-6c-6.96,1.93 -14.33,3.93 -21.34,5.7c-0.48,-4.08 -0.46,-8.52 -0.47,-12.74z" fill="#3f3f3f" id="svg_21" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0" transform="matrix(1 0 0 1 0 0) rotate(90 -352 85.3406)"/>
+  <g id="svg_24">
+   <ellipse cx="-150.32" cy="-57.44" fill="none" id="svg_10" rx="22.82" ry="22.94" stroke="#cccccc" stroke-width="6"/>
+   <path d="m-135.2,-62.34l-9.88,0l0,-9.52l-9.87,0l0,9.52l-9.88,0l0,9.52l9.88,0l0,9.52l9.87,0l0,-9.52l9.88,0" fill="#b2b2b2" id="svg_9" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="0"/>
+  </g>
+  <path d="m40.16,16.53l0,36.17l11.98,0l0,-36.17l-11.98,0zm-16.59,36.17l11.98,0l0,-44l-11.98,0l0,44zm-16.59,0l11.98,0l0,-28.34l-11.98,0l0,28.34z" fill="#cccccc" id="svg_25" stroke="#cccccc"/>
+ </g>
+</svg>

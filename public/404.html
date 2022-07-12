@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Error</title>
+</head>
+<body>
+  <h1>Whoopsie!</h1>
+  <p>You are rederected to the home page in <span class='timer'></span></p>
+  
+  <script>
+    window.onload = ()=> {
+      const span = document.querySelector('.timer');
+      var mill = 3000;
+      var timer = 300/100;
+      span.innerHTML = timer;
+      var t;
+
+      t = setInterval(()=> {
+        timer -=1;
+        span.innerHTML = timer;
+        if(timer < 1) {
+          clearInterval(t)
+           window.location = "http://localhost:3000"
+        }
+       
+      }, mill);
+    }
+
+
+  </script>
+  
+</body>
+</html>

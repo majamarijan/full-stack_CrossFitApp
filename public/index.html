@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>CrossFit API</title>
+  </head>
+  <body>
+    <div class="app">
+      <div class="backdrop"></div>
+      <div class="loader">
+        <label for="loading">0 %</label>
+        <progress max="100" value="0"></progress>
+      </div>
+    
+        <header class='hidden'>
+          <div class="headerOverlay hidden"></div>
+          <h1>CrossFit App</h1>
+          <p>CrossFit App</p>
+          <h2>CrossFit App</h2>
+          <p class="p">CrossFit App</p>
+          <a class="toTrain" href="#main">Let's start training!</a>
+        </header>
+
+      <div class="content hidden">
+
+        <main id="main">
+          <div class="mainOverlay"></div>
+          <div class="pages"></div>
+          <div class='menuHandler'></div>
+          <div class="menu"></div>
+
+          <div class="wrapper">
+            <p class="error hidden"></p>
+            <form class="search">
+              <label for="name"></label>
+              <input
+                type="text"
+                title="enter workout name"
+                id="name"
+                name="name"
+                placeholder="start typing ..."
+                maxlength="10"
+              />
+            </form>
+            <div class="filterWrapper"></div>
+            <div id="card" class='hidden'></div>
+            <div class="cards"></div>
+          </div>
+        </main>
+
+        <footer>Made by majaX (👀)🐶</footer>
+      </div>
+    </div>
+
+    <script src="./script1.js" type="module"></script>
+    <script src="./vanillaTilt.js"></script>
+  </body>
+</html>
