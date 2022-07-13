@@ -1,5 +1,5 @@
 export const loadData = async function () {
-  const url = "http://localhost:3000/api/v1/workouts";
+  const url = "/api/v1/workouts";
   try {
     const res = await fetch(url);
     const json = await res.json();
@@ -11,7 +11,7 @@ export const loadData = async function () {
 
 
 export const getCard = async function (id) {
-  const url = `http://localhost:3000/api/v1/workouts/workout/${id}`;
+  const url = `/api/v1/workouts/workout/${id}`;
   console.log(url)
   try {
     const res = await fetch(url);
