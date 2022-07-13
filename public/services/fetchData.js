@@ -12,7 +12,6 @@ export const loadData = async function () {
 
 export const getCard = async function (id) {
   const url = `/api/v1/workouts/workout/${id}`;
-  console.log(url)
   try {
     const res = await fetch(url);
     const json = await res.json();

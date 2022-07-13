@@ -17,7 +17,6 @@ export default class Search {
   //validate
   search(data, params) {
     this.input.value = this.input.value.toLowerCase();
-    console.log(this.input.value)
     if(this.input.value === '') {
       // clear prev search
       this.value.text = '';

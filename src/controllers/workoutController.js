@@ -19,7 +19,6 @@ const getWorkoutsByLetter = (req,res,next)=> {
 
 const sortByCategory = (req,res,next)=> {
   const category = req.params.category;
-  console.log(req.params)
   const categoryGroup = service.sortByCategory(category);
   //limit list with filter
   res.json(categoryGroup)

@@ -58,7 +58,6 @@ class Todo {
     const tdsArr = Array.from(tds);
     const parent = btn.parentElement;
     tdsArr.map(t => {
-      console.log(t.id);
       t.className.includes('focused') && t.id === parent.dataset.id ? 
       t.classList.remove('focused') : null;
     })
