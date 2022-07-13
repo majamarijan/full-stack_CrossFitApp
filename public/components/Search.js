@@ -11,6 +11,8 @@ export default class Search {
     this.input.oninvalid = (e)=> this.error();
     this.value = {text:''};
   }
+
+  static form = document.querySelector('.search');
   //validate
   search(data, params) {
     if(this.input.value === '') {
@@ -47,7 +49,11 @@ export default class Search {
       this.value.text = this.input.value;
       this.input.setCustomValidity('');
     }
-    return this.value.text;
+    return this.value.text.toLowerCase();
+  }
+
+  static show() {
+    this.form.classList.remove('hidden')
   }
 
   error() {

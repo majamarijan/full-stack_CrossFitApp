@@ -1,5 +1,6 @@
 import { getCard } from '../services/fetchData.js';
 import Pagination, { hidePagination } from './Pagination.js';
+import Search from './Search.js';
 
 class Card {
   constructor() {
@@ -187,6 +188,7 @@ class Card {
     const {data, params} = this.res;
     this.hide();
     document.querySelector('.filterWrapper').classList.remove('hidden');
+    Search.show();
     card.render(data, params);
     Pagination(data, params)
   }

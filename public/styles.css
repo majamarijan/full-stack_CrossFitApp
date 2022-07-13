@@ -972,6 +972,7 @@ footer {
    '. content content content .'
    '. content content content .'; 
    padding-bottom: 5rem;
+   position: relative;
   }
 
   .menuHandler {
@@ -997,10 +998,15 @@ footer {
   }
 
   .menu.menuShow {
-    left: 0px;
+    left: 0px !important;
     position: absolute;
-    top: auto;
+    top: 40px;
     z-index: 100;
+  }
+
+  .menuHandler {
+    position: relative;
+    z-index: 1000;
   }
 
   .wrapper {
@@ -1020,6 +1026,11 @@ footer {
  
   .search {
     width: 100% !important;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 40px;
+    align-self: center;
   }
 
   #card {
