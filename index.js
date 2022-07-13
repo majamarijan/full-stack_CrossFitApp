@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.static(app_root))
 app.get('/', (req,res,next)=> {
   res.sendFile('index.html', {root:app_root})
-})
+});
 
 app.use('/api/v1/workouts', v1Router);
 
