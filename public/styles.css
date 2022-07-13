@@ -1058,3 +1058,11 @@ footer {
 
 }
 
+
+@media all and (max-width: 470px) {
+  .calendar {
+    flex: 1 100%;
+    width: 100%;
+    grid-template-columns: repeat(7, 1fr);
+  }
+}
