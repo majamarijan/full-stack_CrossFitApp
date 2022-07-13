@@ -13,6 +13,8 @@
 - Created custom components in JS
 - Added small todo functionality on the Schedule (add/remove scheduled workouts that is sync with the calendar badges)
 - Advanced search by conditions
+- Added Pagination
+- App is responsive (mobile, desktop, tablet)
 
 
 😼 Enjoy!
