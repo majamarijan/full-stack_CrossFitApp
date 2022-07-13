@@ -22,11 +22,12 @@ export default class App {
        Menu.create();
        Menu.handleMenu(res, this.params);
        menuHandler();
-        const button = document.querySelector('.toTrain');
-        button.onclick = (e)=> {
-          document.querySelector('.content').classList.remove('hidden');
-          document.querySelector('.mainOverlay').classList.remove('hidden');
-          const input = new Search(res, this.params);
+       const button = document.querySelector('.toTrain');
+       button.onclick = (e)=> {
+         document.querySelector('.content').classList.remove('hidden');
+         document.querySelector('.mainOverlay').classList.remove('hidden');
+         const input = new Search(res, this.params);
+         Search.form.onsubmit = (e)=> e.preventDefault();
           //input.search();
           document.body.style.setProperty('overflow', 'auto');
         }

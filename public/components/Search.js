@@ -13,6 +13,7 @@ export default class Search {
   }
 
   static form = document.querySelector('.search');
+
   //validate
   search(data, params) {
     this.input.value = this.input.value.toLowerCase();
