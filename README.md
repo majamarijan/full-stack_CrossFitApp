@@ -16,5 +16,5 @@
 - Added Pagination
 - App is responsive (mobile, desktop, tablet)
 
-Start the app: npm run start
+Start the app: npm run start  
 😼 Enjoy!
