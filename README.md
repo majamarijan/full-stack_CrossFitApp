@@ -16,5 +16,7 @@
 - Added Pagination
 - App is responsive (mobile, desktop, tablet)
 
+Preview at railway: https://full-stackcrossfitapp-production.up.railway.app
+
 Start the app: npm run start  
 😼 Enjoy!
